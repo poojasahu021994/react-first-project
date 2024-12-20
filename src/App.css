@@ -1,0 +1,311 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+/* =========Topnabar========= */
+
+
+.Topnavbar{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+
+}
+.Topnavbar article{
+  display: flex;
+
+}
+.Topnavbar article div a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+
+/* =========Main navbar======== */
+
+
+.Main_Navbar_div{
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  box-shadow: 0px 0 10px rgba(9, 120, 190,0.5);
+}
+.Main_navbar ul li img {
+  height: 60px;
+  width: 100px;
+  margin-left: 17px;
+  /* margin-top: 5px; */
+}
+.Main_navbar{        
+  border: 2px solid rgb(194, 190, 190);
+  height: 60px;
+  border-radius: 5px;
+}
+.Main_navbar ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.Main_navbar ul li ul li a{
+  text-decoration: none;
+  margin: 18px;
+  color: rgb(64, 151, 185);
+  font-size: 18px;
+}
+
+/* =======Hero section======= */
+.hero_section{
+  display: flex;
+  justify-content: space-evenly;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  align-items: center;
+  background-color: rgb(64, 151, 185);
+  /* background-image:url(./blue_backgroud.webp); */
+
+}
+.hero_section article{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.hero_section article .div1{
+    font-size:30px;
+    color:white;
+}
+.hero_section article .div2 {
+    font-size: 35px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+} 
+.hero_section article .div2 u{
+    color:white ;
+}
+
+.hero_section article .div3{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;    
+}
+
+.hero_section article .div4 {
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    color:rgb(64, 151, 185);
+    cursor: pointer;
+}
+.hero_section article div img{
+    
+    height: 540px;
+    width: 600px;
+}
+
+/* =============About section=================== */
+#about-us-heading{
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  padding-top: 100px;
+}
+.About_detail article{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between; 
+  align-items: center;
+  font-size: 20px; 
+}
+
+h2{
+  margin-bottom: 30px;
+  color:rgb(9, 120, 190) ;
+}
+.About_detail article div img{
+  height: 400px;
+  width: 500px; 
+  margin-right: 50px;
+}
+.all_detail{
+  height: 400px;
+  width: 700px; 
+  margin: 100px  0 0 50px;
+}
+/* ==========sreach courses====== */
+ 
+.search_course article .all_course{
+  padding: 20px 0px 0px 15px;
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+
+/* =========Types of courses====== */
+.course-heading{
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  padding-top: 80px;
+}
+.Types_of_courses{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  background-color:rgb(9, 120, 190);
+  color: rgb(27, 27, 27);
+  font-size: 14px;
+}
+
+.Types_of_courses div{
+  background-color: white;
+  height: 25px;
+  width: 90px;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#ui_ux:hover{
+  background-color:white ;
+  color: rgb(9, 120, 190);
+  transition: width 1s;
+}
+
+/* =======course card====== */
+
+.card{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  margin-right: 2px;
+  
+}
+.card article{
+  width: 300px;
+  height: 300px;
+  background-color:rgb(9, 120, 190);
+  overflow: hidden;
+  /* border: 2px solid rgb(49, 48, 48); */
+  margin-right: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 10px 7px 10px 3px rgba(0, 0, 0, 0.24);
+
+
+
+}
+.card article img{
+  height: 170px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(9, 130, 190);
+  box-shadow: 5px 7px 10px 3px rgba(152, 198, 221, 0.3);
+  
+}
+.card article div{
+  margin-left: 25px;
+  margin-top: 12px;
+  font-size: 15px; 
+}
+
+
+/* ==========Contact section============== */
+
+#contact1{
+  padding-top: 100px;
+}
+
+.contact_title article div{
+  font-size: 35px;
+  color:  rgb(9, 120, 190);
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(9, 120, 190);
+  color: white;
+  box-shadow: 0 0 10px rgba(48, 178, 230, 0.5);
+  margin-bottom: 2px;
+}
+
+.contact article{
+  font-size: 20px;
+  margin-left: 150px;
+}
+
+.form{
+  margin-right: 190px;
+  margin-top: 25px; 
+}
+.form div input{
+  height: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  padding: 13px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  
+}
+.form div,input::placeholder{
+  color: black ;
+  margin-left: 20px;
+}
+.form button{
+  color: black;
+  height: 40px;
+  width: 120px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.form button:hover{
+  color: rgb(9, 120, 190);
+}
+
+
+/* =====Footer======= */
+footer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(63, 57, 57);
+  color: white;
+  padding: 20px 7px 20px 7px;
+}
+
+#about-to-globle{
+  width: 400px;
+}
+.h4_footer{
+  font-size: 20px;
+}
+.contact_us a{
+  margin: 5px;
+
+}
+.img_payment img{
+  width: 300px;
+}
+
+
